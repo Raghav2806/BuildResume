@@ -1,0 +1,137 @@
+#root {
+    position: absolute;
+    width: 100%;
+}
+head {
+    background-color: #040D12;
+}
+
+header{
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.class-form h1{
+    text-align: center;
+    color: #040D12;
+}
+
+.class-form {
+    position: relative;
+    font-family: 'Inclusive Sans', sans-serif;
+    top: 30px;
+    width: 60%;
+    margin-left: 20%;
+    background-color: #D2E9E9;
+    border-radius: 10px;
+}
+
+.inner-form {
+    margin-left: 5%;
+    width: 90%;
+}
+
+
+input {
+    border: 1px solid #93B1A6;
+    width: 90%;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 10px;
+    background-color: #183D3D;
+}
+
+textarea {
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid #93B1A6;
+    padding: 10px 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 10px;
+    resize: none;
+    background-color: #183D3D;
+}
+
+.resume {
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-right: 50px;
+    max-height: 1122px;
+}
+
+.flex {
+    display: flex;
+    height: auto;
+    gap: 10px;
+}
+
+.inner-head {
+    flex: 1;
+}
+
+.inner-head h1 {
+    margin-top: 0px;
+}
+
+.inner-head p {
+    text-align: right;
+    color: slategray;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.resume hr {
+    height: 1.5px;
+    background-color: slategray;
+    margin-top: 0px;
+}
+
+.inner-heading {
+    min-width: 13%;
+    max-width: 13%;
+}
+
+.inner-heading h2 {
+    color: slategray;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 16px;
+}
+
+.prof {
+    width: auto;
+}
+
+.prof p{
+    margin-top: 0px;
+    font-weight: 600;
+}
+
+.skill {
+    min-width: 42%;
+}
+
+.skill ul {
+    list-style-type: none;
+    margin-top: 0px;
+    padding-left: 0px;
+    font-weight: 600;
+}
+
+.pro-skill p {
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 600;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.pro-skill ul{
+    font-weight: 600;
+    margin-top: 0px;
+}
+
+.work p{
+    font-weight: 600;
+}
